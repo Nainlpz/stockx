@@ -1,5 +1,7 @@
 package edu.estatuas.stockx;
 
+import java.util.List;
+
 interface Item {
 
     int getBid();
@@ -10,5 +12,8 @@ interface Item {
 
     int getSale();
     void setSale(int sale);
+
+    void add(Offer offer);
+    List<Offer> offers();
 
 }

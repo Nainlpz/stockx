@@ -1,8 +1,10 @@
-package edu.estatuas.stockx;
+package edu.estatuas.stockx.Item;
+
+import edu.estatuas.stockx.Item.Offer;
 
 import java.util.List;
 
-interface Item {
+public interface Item {
 
     int getBid();
     void setBid(int bid);

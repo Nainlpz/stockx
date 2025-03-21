@@ -1,6 +1,6 @@
-package edu.estatuas.stockx;
+package edu.estatuas.stockx.Item;
 
-public class Bid implements Offer{
+public class Bid implements Offer {
 
     private String size = "";
     private Integer bid = 0;

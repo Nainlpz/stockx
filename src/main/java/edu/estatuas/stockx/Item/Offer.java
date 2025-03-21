@@ -1,6 +1,6 @@
-package edu.estatuas.stockx;
+package edu.estatuas.stockx.Item;
 
-interface Offer {
+public interface Offer {
 
     String size();
     int value();

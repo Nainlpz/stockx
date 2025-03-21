@@ -1,5 +1,6 @@
 package edu.estatuas.stockx;
 
+import edu.estatuas.stockx.Item.Bid;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;

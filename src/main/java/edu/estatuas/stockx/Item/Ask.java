@@ -17,7 +17,7 @@ public class Ask implements Offer{
 
     @Override
     public int value() {
-        return this.ask;
+        return this.ask.intValue();
     }
 
     @Override

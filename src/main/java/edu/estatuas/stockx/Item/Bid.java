@@ -17,7 +17,7 @@ public class Bid implements Offer {
 
     @Override
     public int value() {
-        return this.bid;
+        return this.bid.intValue();
     }
 
     @Override

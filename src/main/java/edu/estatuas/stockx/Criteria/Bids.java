@@ -15,7 +15,7 @@ public class Bids implements Criteria {
         return sneaker.offers()
                 .stream()
                 .filter(offer -> offer instanceof Bid)
-                .sorted(Comparator.comparing(Offer::value).reversed())
+                .sorted(Comparator.reverseOrder())
                 .collect(Collectors.toList());
     };
 

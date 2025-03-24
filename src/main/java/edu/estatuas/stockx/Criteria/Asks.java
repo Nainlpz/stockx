@@ -15,7 +15,7 @@ public class Asks implements Criteria{
         return sneaker.offers()
                 .stream()
                 .filter(offer -> offer instanceof Ask)
-                .sorted(Comparator.comparing(Offer::value).reversed())
+                .sorted(Comparator.reverseOrder())
                 .collect(Collectors.toList());
     };
 }

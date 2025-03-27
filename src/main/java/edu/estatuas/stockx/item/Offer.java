@@ -1,4 +1,4 @@
-package edu.estatuas.stockx.Item;
+package edu.estatuas.stockx.item;
 
 public interface Offer  extends Comparable<Offer>{
 

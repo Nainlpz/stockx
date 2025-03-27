@@ -1,6 +1,4 @@
-package edu.estatuas.stockx.Item;
-
-import edu.estatuas.stockx.Item.Offer;
+package edu.estatuas.stockx.item;
 
 import java.util.List;
 

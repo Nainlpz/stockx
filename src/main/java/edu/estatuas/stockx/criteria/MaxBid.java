@@ -1,8 +1,8 @@
-package edu.estatuas.stockx.Criteria;
+package edu.estatuas.stockx.criteria;
 
-import edu.estatuas.stockx.Item.Bid;
-import edu.estatuas.stockx.Item.Item;
-import edu.estatuas.stockx.Item.Offer;
+import edu.estatuas.stockx.item.Bid;
+import edu.estatuas.stockx.item.Item;
+import edu.estatuas.stockx.item.Offer;
 
 import java.util.Comparator;
 import java.util.List;

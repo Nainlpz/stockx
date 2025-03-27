@@ -1,4 +1,4 @@
-package edu.estatuas.stockx.Item;
+package edu.estatuas.stockx.item;
 
 import java.util.ArrayList;
 import java.util.List;

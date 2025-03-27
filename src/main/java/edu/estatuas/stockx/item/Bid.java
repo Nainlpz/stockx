@@ -1,13 +1,13 @@
-package edu.estatuas.stockx.Item;
+package edu.estatuas.stockx.item;
 
-public class Sale implements Offer{
+public class Bid implements Offer {
 
     private String size = "";
-    private Integer sale = 0;
+    private Integer bid = 0;
 
-    public Sale(String size, Integer sale) {
+    public Bid(String size, Integer bid) {
         this.size = size;
-        this.sale = sale;
+        this.bid = bid;
     }
 
     @Override
@@ -17,12 +17,12 @@ public class Sale implements Offer{
 
     @Override
     public int value() {
-        return this.sale.intValue();
+        return this.bid.intValue();
     }
 
     @Override
-    public int compareTo(Offer sale) {
-        return this.sale.compareTo(sale.value());
+    public int compareTo(Offer bid) {
+        return this.bid.compareTo(bid.value());
     }
 
     @Override
